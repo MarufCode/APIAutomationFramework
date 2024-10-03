@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="APIAutomationFramework"
-           tests="1"
+           tests="2"
            failures="0"
            errors="0"
            skipped="0"
-           time="2.577">
+           time="3.336">
     <properties></properties>
 
 
 
             <testcase
+                name="testCreateBookingNegative"
+                time="2.032"
+                classname="org.example.tests.crud.TCCreateBooking">
+            </testcase>
+            <testcase
                 name="testPositivePOSTReq"
-                time="2.577"
+                time="1.304"
                 classname="org.example.tests.crud.TCCreateBooking">
             </testcase>
 </testsuite>
