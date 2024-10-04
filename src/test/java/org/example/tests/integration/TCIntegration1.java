@@ -46,7 +46,7 @@ public class TCIntegration1 extends BaseTest {
 
 
     @Test(groups = "integration", priority = 2)
-    @Owner("Maruf")
+    @Owner("Watto")
     @Description("TC#INT1 - Step 2. Verify that the Booking By ID")
     public void testVerifyBookingId(ITestContext iTestContext) {
         // GET Req
