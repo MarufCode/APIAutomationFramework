@@ -46,7 +46,7 @@ public class TCIntegration1 extends BaseTest {
 
 
     @Test(groups = "integration", priority = 2)
-    @Owner("Watto")
+    @Owner("Maruf")
     @Description("TC#INT1 - Step 2. Verify that the Booking By ID")
     public void testVerifyBookingId(ITestContext iTestContext) {
         // GET Req
@@ -75,7 +75,7 @@ public class TCIntegration1 extends BaseTest {
     }
 
     @Test(groups = "integration", priority = 4)
-    @Owner("Promode")
+    @Owner("Maruf")
     @Description("TC#INT1 - Step 4. Delete the Booking by ID")
     public void testDeleteBookingById(ITestContext iTestContext) {
         Integer bookingId = (Integer) iTestContext.getAttribute("bookingid");
